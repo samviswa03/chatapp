@@ -6,8 +6,8 @@ import Navbar from './navbar'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHeart } from '@fortawesome/free-solid-svg-icons';
 import Footer from './footer';
-import waren from './assets/wbufet.jpeg';
-import chatui from '../src/assets/chatui.jpg';
+import waren from './assets/wbufet.png';
+import chatui from '../src/assets/chatui.png';
 
 function App() {
   const [count, setCount] = useState(0)
