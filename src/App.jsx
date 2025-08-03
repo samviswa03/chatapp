@@ -7,6 +7,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHeart } from '@fortawesome/free-solid-svg-icons';
 import Footer from './footer';
 import waren from './assets/wbufet.jpeg';
+import chatui from '../src/assets/chatui.jpg';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -27,7 +28,7 @@ function App() {
             </div>
           </div>
           <div className='w-full md:w-[750px] lg:w-[1000px] md:h-[500px] lg:h-[800px] md:mx-auto md:rounded-xl h-fit p-6 flex items-center justify-center mt-6 bg-gray-200'>
-            <img src="/chatui.webp" className='md:w-xl lg:w-4xl' alt="" />
+            <img src={chatui} className='md:w-xl lg:w-4xl' alt="" />
           </div>
         </div>
         <Footer/>
