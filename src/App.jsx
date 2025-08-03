@@ -22,7 +22,7 @@ function App() {
               <p className='md:text-xl' >Waran Bufet</p>
               <p className='md:text-xl'>Available to work</p>
               <FontAwesomeIcon icon={faHeart} className=" text-pink-600 outline-2 outline-gray-300  p-1 rounded-full text-lg" />
-              <button className='bg-black rounded-full p-2 text-white' >Get in touch</button>
+              <button className='bg-black rounded-full p-1 text-white' >Get in touch</button>
             </div>
           </div>
           <div className='w-full md:w-[750px] lg:w-[1000px] md:h-[500px] lg:h-[800px] md:mx-auto md:rounded-xl h-fit p-6 flex items-center justify-center mt-6 bg-gray-200'>
