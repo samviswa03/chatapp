@@ -1,6 +1,4 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import Navbar from './navbar'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -20,7 +18,7 @@ function App() {
           <div className='sticky mt-56 p-4 flex flex-col w-full md:w-full'>
             <h1 className='font-bold text-2xl md:text-4xl'>Chat app</h1>
             <div className='flex items-center gap-5 md:justify-between w-full mt-3'>
-              <img src={waren} className='w-15 h-15 md:h-22 md:w-22 rounded-full' alt="logo" />
+              <img src={waren} className='w-16 h-16 md:h-24 md:w-24 rounded-full' alt="logo" />
               <p className='md:text-xl' >Waran Bufet</p>
               <p className='md:text-xl'>Available to work</p>
               <FontAwesomeIcon icon={faHeart} className=" text-pink-600 outline-2 outline-gray-300  p-1 rounded-full text-lg" />
