@@ -12,7 +12,7 @@ import c1 from './assets/c1.png';
 import c2 from './assets/c2.png';
 import c3 from './assets/c3.png';
 import c4 from './assets/c4.png';
-
+import wbufet from './assets/wbufet.png';
 
 
 function Home({ goToChat }) {
@@ -23,7 +23,7 @@ function Home({ goToChat }) {
         <div className='mt-44 p-3 flex flex-col w-full lg:w-[1000px] bg-white'>
           <h1 className='font-bold text-2xl md:text-3xl lg:text-4xl'>Chat app</h1>
           <div className='flex items-center gap-5 md:justify-between w-full mt-3'>
-            <img src="https://i.postimg.cc/6qnNKVzc/wbufet.jpg" className='w-16 h-16 md:h-20 md:w-20 rounded-full' alt="logo" />
+            <img src={wbufet} className='w-16 h-16 md:h-20 md:w-20 rounded-full' alt="logo" />
             <p className='md:text-xl' >Waran Bufet</p>
             <p className='md:text-xl'>Available to work</p>
             <FontAwesomeIcon icon={faHeart} className=" text-pink-600 outline-2 outline-gray-300  p-1 rounded-full text-lg" />
